@@ -9,7 +9,7 @@ install:
    - npm install lcov-parse
 
 script: 
- python test.py
+ python -c "print('hello')"
 
 after_success:
  - coveralls
